@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>Hazia = AngularJS + Twitter Bootstrap</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css"/>
+
+  <style>
+    @media (min-width: 980px){
+      body {
+        padding-top:60px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+                <a class="brand" href="#">
+                   HAZIA
+                </a>
+                <ul class="nav">
+                  <li><a href="#/view1">view1</a></li>
+                  <li><a href="#/view2">view2</a></li>
+                </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+
+  <div ng-view></div>
+
+
+  <hr>
+
+  <div class="span12">
+    <div>Hazia v<span app-version></span> <a href="https://github.com/jimakker/Hazia" class="btn">Eskuratu GitHub-en</a></div>
+  </div>
+  
+
+  <script src="lib/angular/angular.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+  <script src="js/jquery-1.7.2.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
