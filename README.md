@@ -3,7 +3,9 @@ Hazia
 
 WebApp-ak sortzeko hazia.
 
+DEMO: [http://jimakker.github.com/Hazia/](http://jimakker.github.com/Hazia/)
+
 AngularJS + Twitter Bootstrap
 -----------------------------
 
-[AngularJS](http://angularjs.org) javascript frameworka, [Twitter Bootsrap](http://twitter.github.com/bootstrap/index.html) eta [jQuery](http://jquery.com) pakete batean... erabiltzeko prest!
+[AngularJS](http://angularjs.org) javascript frameworka (1.0.7), [Twitter Bootsrap](http://twitter.github.com/bootstrap/index.html) (2.3.2) eta [jQuery](http://jquery.com) (2.0.2) pakete batean... erabiltzeko prest!
