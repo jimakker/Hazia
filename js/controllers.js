@@ -2,11 +2,14 @@
 
 /* Controllers */
 
+function AppCtrl($scope, $http) {
+	
+}
 
-function MyCtrl1() {}
-MyCtrl1.$inject = [];
+function MyCtrl1($scope) {
+	$scope.welcome = "Welcome";
+}
 
 
 function MyCtrl2() {
 }
-MyCtrl2.$inject = [];
