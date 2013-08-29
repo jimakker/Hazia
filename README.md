@@ -3,7 +3,6 @@ Hazia
 
 WebApp-ak sortzeko hazia.
 
-DEMO: [http://jimakker.github.com/Hazia/](http://jimakker.github.com/Hazia/)
 
 AngularJS + Twitter Bootstrap
 -----------------------------
